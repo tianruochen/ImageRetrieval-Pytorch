@@ -1,0 +1,60 @@
+image_gallery: 'data/images'
+query_image: "data/query_images"
+query_number: 100
+checkpoint: 'models/image_retrieval_best.pth'
+out_similar_dir: 'data/output/'
+out_similar_file_dir: 'workshop/output/similar_file'
+all_csv_file: 'workshop/output/aaa.csv'
+
+
+lsh_config:
+  hash_size: 0
+  input_dim: 2048
+  num_hash_tables: 1
+lsh_paths:
+  hash_size_zero:
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211117/lsh_hash-size-00_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211124/lsh_hash-size-00_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211125/lsh_hash-size-00_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211126/lsh_hash-size-00_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211127/lsh_hash-size-00_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211128/lsh_hash-size-00_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211129/lsh_hash-size-00_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211130/lsh_hash-size-00_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211201/lsh_hash-size-00_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211202/lsh_hash-size-00_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211203/lsh_hash-size-00_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211204/lsh_hash-size-00_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211205/lsh_hash-size-00_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211206/lsh_hash-size-00_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211207/lsh_hash-size-00_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211208/lsh_hash-size-00_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211209/lsh_hash-size-00_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211210/lsh_hash-size-00_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211211/lsh_hash-size-00_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211212/lsh_hash-size-00_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211213/lsh_hash-size-00_input-idm-2048.pkl"
+  hash_size_eight:
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211117/lsh_indexer-size-08_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211124/lsh_indexer-size-08_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211125/lsh_indexer-size-08_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211126/lsh_indexer-size-08_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211127/lsh_indexer-size-08_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211128/lsh_indexer-size-08_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211129/lsh_indexer-size-08_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211130/lsh_indexer-size-08_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211201/lsh_indexer-size-08_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211202/lsh_indexer-size-08_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211203/lsh_indexer-size-08_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211204/lsh_indexer-size-08_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211205/lsh_indexer-size-08_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211206/lsh_indexer-size-08_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211207/lsh_indexer-size-08_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211208/lsh_indexer-size-08_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211210/lsh_indexer-size-08_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211211/lsh_indexer-size-08_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211212/lsh_indexer-size-08_input-idm-2048.pkl"
+    - "/data1/changqing/ZyImage_Data/image_gallery/20211213/lsh_indexer-size-08_input-idm-2048.pkl"
+
+feature_path: "data/test_feature.pkl"
+lsh_index_path: "data/test_lsh.pkl"

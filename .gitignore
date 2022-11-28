@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+data/images/*
+data/output/*
+data/query_images/*
+workshop/*
+models/*
